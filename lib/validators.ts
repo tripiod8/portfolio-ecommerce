@@ -13,3 +13,11 @@ export const insertProductSchema = z.object({
     price: currency,
     isFeatured: z.boolean() 
 })
+
+/**
+ @TODO: make stronger password
+ */
+export const signInFormSchema = z.object({
+    email: z.string().email('Invalid Email Address'),
+    password: z.string().min(8, 'Password must be atleast 8 characters.')
+})
