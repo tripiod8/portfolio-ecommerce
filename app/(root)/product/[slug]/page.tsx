@@ -60,7 +60,7 @@ const ProductDetailsPage = async (props: {
 						<div>
 							{
 								product.inventory > 0 ?
-									<p className="text-sm">Out of Stock: </p>
+									<p className="text-sm">In Stock: </p>
 								:
 									<Badge variant='destructive'>Out Of Stock</Badge>
 							}
