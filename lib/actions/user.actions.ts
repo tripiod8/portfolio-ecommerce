@@ -16,9 +16,8 @@ export async function signInWithCredentials(prevState: unknown, formData: FormDa
     } catch (error) {
         if(isRedirectError(error)) {
             throw error
-
-            return {success: false, msg: 'Invalid email or password.'}
         }
+        return {success: false, msg: 'Invalid email or password.'}
     }
 }
 
