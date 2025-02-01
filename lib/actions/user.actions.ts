@@ -3,7 +3,6 @@
 import { signIn, signOut } from "@/auth";
 import { signInFormSchema } from "../validators";
 import { isRedirectError } from "next/dist/client/components/redirect-error";
-import { log } from "console";
 
 export async function signInWithCredentials(prevState: unknown, formData: FormData) {
     try {
@@ -29,5 +28,5 @@ export async function signOutUser() {
 
 function ciLeanrFunc()
 {
-    console.log('CI Learn 2');
+    console.log('CI Learn 3');
 }
