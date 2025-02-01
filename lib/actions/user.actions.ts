@@ -28,5 +28,5 @@ export async function signOutUser() {
 
 function ciLearnFunc()
 {
-    console.log('CI Learn 6');
+    console.log('CI Learn 7');
 }
