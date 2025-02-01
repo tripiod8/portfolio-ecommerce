@@ -26,7 +26,7 @@ export async function signOutUser() {
     await signOut()
 }
 
-function ciLeanrFunc()
+function ciLearnFunc()
 {
-    console.log('CI Learn 4');
+    console.log('CI Learn 5');
 }
