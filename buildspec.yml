@@ -1,0 +1,15 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: latest
+  pre-build:
+    commands:
+      - echo Installing source NPM dependencies...
+      - npm install
+  build
+    commands:
+      - echo build stage....
+  post-build
+    commands
+    - echo post build stage...
