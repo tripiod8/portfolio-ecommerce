@@ -7,7 +7,7 @@ phases:
     commands:
       - echo Installing source NPM dependencies...
       - npm install
-  build
+  build:
     commands:
       - echo build stage....
   post-build
